@@ -48,7 +48,7 @@ const DefaultView = ({ content, intl, location }) => {
     dispatch({ field, value });
   };
 
-  const onSubmit = () => {
+  const onSubmit = (email) => {
     alert(JSON.stringify(state));
   };
 

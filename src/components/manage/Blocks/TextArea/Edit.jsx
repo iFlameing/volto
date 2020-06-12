@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
-import TextAreaSidebar from './TextAreaSidebar';
-import { SidebarPortal, TextareaWidget } from '@plone/volto/components';
+import {
+  SidebarPortal,
+  TextareaWidget,
+  TextAreaSidebar,
+} from '@plone/volto/components';
 
 const Edit = (props) => {
   const [textarea, setTextarea] = useState('Enter the lable for textarea');

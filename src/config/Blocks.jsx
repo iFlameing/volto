@@ -12,8 +12,8 @@ import ViewHeroImageLeftBlock from '@plone/volto/components/manage/Blocks/HeroIm
 import ViewMapBlock from '@plone/volto/components/manage/Blocks/Maps/View';
 import ViewHTMLBlock from '@plone/volto/components/manage/Blocks/HTML/View';
 import ViewTableBlock from '@plone/volto/components/manage/Blocks/Table/View';
-import ViewInputBlock from '@plone/volto/components/manage/Blocks/InputBlock/View';
-import ViewTextAreaBlock from '@plone/volto/components/manage/Blocks/TextAreaBlock/View';
+import ViewInputBlock from '@plone/volto/components/manage/Blocks/Input/View';
+import ViewTextAreaBlock from '@plone/volto/components/manage/Blocks/TextArea/View';
 import ViewSubmitBlock from '@plone/volto/components/manage/Blocks/Submit/View';
 
 import EditTitleBlock from '@plone/volto/components/manage/Blocks/Title/Edit';
@@ -29,8 +29,8 @@ import EditHeroImageLeftBlock from '@plone/volto/components/manage/Blocks/HeroIm
 import EditMapBlock from '@plone/volto/components/manage/Blocks/Maps/Edit';
 import EditHTMLBlock from '@plone/volto/components/manage/Blocks/HTML/Edit';
 import EditTableBlock from '@plone/volto/components/manage/Blocks/Table/Edit';
-import EditInputBlock from '@plone/volto/components/manage/Blocks/InputBlock/Edit';
-import EditTextAreaBlock from '@plone/volto/components/manage/Blocks/TextAreaBlock/Edit';
+import EditInputBlock from '@plone/volto/components/manage/Blocks/Input/Edit';
+import EditTextAreaBlock from '@plone/volto/components/manage/Blocks/TextArea/Edit';
 import EditSubmitBlock from '@plone/volto/components/manage/Blocks/Submit/Edit';
 
 import descriptionSVG from '@plone/volto/icons/description.svg';
@@ -363,7 +363,7 @@ const blocksConfig = {
     edit: EditSubmitBlock,
     restricted: false,
     mostUsed: false,
-    sidebarTab: 0,
+    sidebarTab: 1,
     security: {
       addPermission: [],
       view: [],
