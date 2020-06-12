@@ -1,9 +1,10 @@
 import React from 'react';
-import { TextArea } from 'semantic-ui-react';
+import { Input } from 'semantic-ui-react';
 import {
   SidebarPortal,
   FormFieldWrapper,
   InputSidebar,
+  TextWidget,
 } from '@plone/volto/components';
 
 const Edit = (props) => {
@@ -15,15 +16,15 @@ const Edit = (props) => {
 
   return (
     <>
-      <FormFieldWrapper
-        id="InputBlock"
+      <TextWidget
+        id="input-edit"
         title={
           props.data.input?.length > 0 ? props.data.input : 'enter input label'
         }
         required={props.data.required}
-      >
-        <TextArea placeholder="Tell us more" />
-      </FormFieldWrapper>
+        value=""
+        onChange={() => {}}
+      />
       <SidebarPortal selected={props.selected}>
         <InputSidebar {...props} />
       </SidebarPortal>

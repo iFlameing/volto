@@ -1,7 +1,7 @@
 import React from 'react';
 import { Segment } from 'semantic-ui-react';
 import { FormattedMessage, injectIntl, defineMessages } from 'react-intl';
-import { TextWidget, SelectWidget } from '@plone/volto/components';
+import { TextWidget, CheckboxWidget } from '@plone/volto/components';
 
 const messages = defineMessages({
   label: {
@@ -38,15 +38,10 @@ const InputSidebar = (props) => {
         />
       </Segment>
       <Segment className="form sidebar-image-data">
-        <SelectWidget
+        <CheckboxWidget
           id="external"
           title={props.intl.formatMessage(messages.required)}
-          required={true}
           value={props.data.required}
-          choices={[
-            [true, 'True'],
-            [false, 'False'],
-          ]}
           onChange={(e, v) => {
             props.onChangeBlock(props.block, {
               ...props.data,
