@@ -5,8 +5,8 @@ import { TextWidget, SelectWidget } from '@plone/volto/components';
 
 const messages = defineMessages({
   label: {
-    id: 'Edit Label',
-    defaultMessage: 'Edit Label',
+    id: 'Label',
+    defaultMessage: 'Label',
   },
   required: {
     id: 'Required',
@@ -16,7 +16,6 @@ const messages = defineMessages({
 
 const InputSidebar = (props) => {
   const value = props.data.input;
-  console.log('this is require', props.data.required);
   return (
     <Segment.Group raised>
       <header className="header pulled">

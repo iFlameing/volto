@@ -12,7 +12,7 @@ const Edit = (props) => {
       <TextareaWidget
         id="external"
         title={props.data.textarea?.length > 0 ? props.data.textarea : textarea}
-        required={false}
+        required={props.data.required}
         value=""
         onChange={() => {}}
       />

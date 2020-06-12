@@ -1,30 +1,22 @@
 import React, { useState } from 'react';
-import { Grid, Input, Divider, Message } from 'semantic-ui-react';
+import { TextWidget } from '@plone/volto/components';
 
 const View = (props) => {
-  const [input, setInput] = useState('First Name');
-  const onChange = (e) => {
-    setInput(e.target.value);
-    props.onChange(props.data.input, e.target.value);
+  const [input, setInput] = useState('');
+  const onChange = (id, value) => {
+    setInput(value);
+    props.onChange(props.data.input, value);
   };
   return (
-    <Message>
-      <Grid columns="two">
-        <Grid.Row>
-          <Grid.Column>
-            <h4>{props.data.input}</h4>
-          </Grid.Column>
-          <Grid.Column>
-            <Input
-              transparent
-              placeholder="Write Your First Name"
-              onChange={onChange}
-            />
-          </Grid.Column>
-        </Grid.Row>
-      </Grid>
-      <Divider />
-    </Message>
+    <TextWidget
+      id="input-form-view"
+      title={
+        props.data.input?.length > 0 ? props.data.input : 'enter input label'
+      }
+      required={props.data.required}
+      value={input}
+      onChange={onChange}
+    />
   );
 };
 

@@ -44,6 +44,7 @@ import heroSVG from '@plone/volto/icons/hero.svg';
 import tableSVG from '@plone/volto/icons/table.svg';
 import listBulletSVG from '@plone/volto/icons/list-bullet.svg';
 import tocSVG from '@plone/volto/icons/list-bullet.svg';
+import formSVG from '@plone/volto/icons/form.svg';
 
 import ImageGalleryListingBlockTemplate from '@plone/volto/components/manage/Blocks/Listing/ImageGallery';
 
@@ -327,7 +328,7 @@ const blocksConfig = {
   inputBlock: {
     id: 'inputBlock',
     title: 'Input',
-    icon: cameraSVG,
+    icon: formSVG,
     group: 'form',
     view: ViewInputBlock,
     edit: EditInputBlock,
@@ -342,7 +343,7 @@ const blocksConfig = {
   textarea: {
     id: 'textarea',
     title: 'Textarea',
-    icon: cameraSVG,
+    icon: formSVG,
     group: 'form',
     view: ViewTextAreaBlock,
     edit: EditTextAreaBlock,
@@ -357,7 +358,7 @@ const blocksConfig = {
   submit: {
     id: 'submit',
     title: 'Submit',
-    icon: cameraSVG,
+    icon: formSVG,
     group: 'form',
     view: ViewSubmitBlock,
     edit: EditSubmitBlock,

@@ -1,13 +1,13 @@
 import React from 'react';
-import { Message, Button } from 'semantic-ui-react';
+import { Button } from 'semantic-ui-react';
 import { SidebarPortal, SubmitSidebar } from '@plone/volto/components';
 
 const Edit = (props) => {
   return (
     <>
-      <Message>
+      <div>
         <Button>Submit</Button>
-      </Message>
+      </div>
       <SidebarPortal selected={props.selected}>
         <SubmitSidebar {...props} />
       </SidebarPortal>

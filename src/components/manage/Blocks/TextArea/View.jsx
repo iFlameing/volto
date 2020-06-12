@@ -1,26 +1,20 @@
 import React, { useState } from 'react';
-import { TextArea, Grid, Divider, Message } from 'semantic-ui-react';
+import { TextareaWidget } from '@plone/volto/components';
 
 const View = (props) => {
   const [textarea, setTextarea] = useState('');
-  const onChange = (e) => {
-    props.onChange(props.data.textarea, e.target.value);
-    setTextarea(e.target.value);
+  const onChange = (id, value) => {
+    props.onChange(props.data.textarea, value);
+    setTextarea(value);
   };
   return (
-    <Message>
-      <Grid columns="two">
-        <Grid.Row>
-          <Grid.Column>
-            <h4>{props.data.textarea}</h4>
-          </Grid.Column>
-          <Grid.Column>
-            <TextArea onChange={onChange} />
-          </Grid.Column>
-        </Grid.Row>
-      </Grid>
-      <Divider />
-    </Message>
+    <TextareaWidget
+      id="external"
+      title={props.data.textarea}
+      required={props.data.required}
+      value={textarea}
+      onChange={onChange}
+    />
   );
 };
 
