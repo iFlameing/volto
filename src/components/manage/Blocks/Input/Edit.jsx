@@ -1,19 +1,11 @@
 import React from 'react';
-import { Input } from 'semantic-ui-react';
 import {
   SidebarPortal,
-  FormFieldWrapper,
   InputSidebar,
   TextWidget,
 } from '@plone/volto/components';
 
 const Edit = (props) => {
-  console.log(
-    'this is require from edit',
-    props.data.required,
-    props.data.input,
-  );
-
   return (
     <>
       <TextWidget

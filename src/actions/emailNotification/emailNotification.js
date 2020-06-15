@@ -3,7 +3,10 @@
  * @module actions/emailNotification/emailNotification
  */
 
-import { EMAIL_NOTIFICATION } from '@plone/volto/constants/ActionTypes';
+import {
+  EMAIL_NOTIFICATION,
+  EMAIL_SEND,
+} from '@plone/volto/constants/ActionTypes';
 
 /**
  * Email notification function
@@ -25,6 +28,22 @@ export function emailNotification(from, message, name, subject) {
         message,
         name,
         subject,
+      },
+    },
+  };
+}
+export function emailSend(from, message, name, subject, to) {
+  return {
+    type: EMAIL_SEND,
+    request: {
+      op: 'post',
+      path: '/@email-send',
+      data: {
+        from,
+        message,
+        name,
+        subject,
+        to,
       },
     },
   };

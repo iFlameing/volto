@@ -7,6 +7,11 @@ describe('emailNotification reducer', () => {
       error: null,
       loaded: false,
       loading: false,
+      emailSend: {
+        error: null,
+        loaded: false,
+        loading: false,
+      },
     });
   });
 
@@ -19,6 +24,11 @@ describe('emailNotification reducer', () => {
       error: null,
       loaded: false,
       loading: true,
+      emailSend: {
+        error: null,
+        loaded: false,
+        loading: false,
+      },
     });
   });
 
@@ -31,6 +41,11 @@ describe('emailNotification reducer', () => {
       error: null,
       loaded: true,
       loading: false,
+      emailSend: {
+        error: null,
+        loaded: false,
+        loading: false,
+      },
     });
   });
 
@@ -44,6 +59,11 @@ describe('emailNotification reducer', () => {
       error: 'failed',
       loaded: false,
       loading: false,
+      emailSend: {
+        error: null,
+        loaded: false,
+        loading: false,
+      },
     });
   });
 });

@@ -8,9 +8,11 @@ import PropTypes from 'prop-types';
 import { defineMessages, injectIntl } from 'react-intl';
 
 import { Container, Image } from 'semantic-ui-react';
+import { useDispatch } from 'react-redux';
 import { map } from 'lodash';
 
 import { blocks, FormBlocks } from '~/config';
+import { emailSend } from '@plone/volto/actions';
 
 import {
   getBlocksFieldname,
@@ -47,9 +49,12 @@ const DefaultView = ({ content, intl, location }) => {
   const onChange = (field, value) => {
     dispatch({ field, value });
   };
+  const dispatchOriginal = useDispatch();
 
   const onSubmit = (email) => {
-    alert(JSON.stringify(state));
+    dispatchOriginal(
+      emailSend(state.From, state.Message, state.Name, state.Subject, email),
+    );
   };
 
   return hasBlocksData(content) ? (

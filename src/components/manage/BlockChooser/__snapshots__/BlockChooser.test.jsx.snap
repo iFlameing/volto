@@ -582,6 +582,143 @@ exports[`renders a BlockChooser component 1`] = `
         </div>
       </div>
     </div>
+    <div
+      className="title"
+      onClick={[Function]}
+    >
+      Form
+      <div
+        className="accordion-tools"
+      >
+        <svg
+          className="icon"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": undefined,
+            }
+          }
+          onClick={null}
+          style={
+            Object {
+              "fill": "currentColor",
+              "height": "20px",
+              "width": "auto",
+            }
+          }
+          viewBox=""
+          xmlns=""
+        />
+      </div>
+    </div>
+    <div
+      className="content form"
+    >
+      <div
+        aria-hidden={true}
+        className="rah-static rah-static--height-zero"
+        style={
+          Object {
+            "height": 0,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "WebkitTransition": "opacity 500ms ease 0ms",
+              "opacity": 0,
+              "transition": "opacity 500ms ease 0ms",
+            }
+          }
+        >
+          <div
+            className="ui buttons"
+          >
+            <button
+              className="ui basic icon button inputBlock"
+              onClick={[Function]}
+            >
+              <svg
+                className="icon"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": undefined,
+                  }
+                }
+                onClick={null}
+                style={
+                  Object {
+                    "fill": "currentColor",
+                    "height": "36px",
+                    "width": "auto",
+                  }
+                }
+                viewBox=""
+                xmlns=""
+              />
+              Input
+            </button>
+          </div>
+          <div
+            className="ui buttons"
+          >
+            <button
+              className="ui basic icon button textarea"
+              onClick={[Function]}
+            >
+              <svg
+                className="icon"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": undefined,
+                  }
+                }
+                onClick={null}
+                style={
+                  Object {
+                    "fill": "currentColor",
+                    "height": "36px",
+                    "width": "auto",
+                  }
+                }
+                viewBox=""
+                xmlns=""
+              />
+              Textarea
+            </button>
+          </div>
+          <div
+            className="ui buttons"
+          >
+            <button
+              className="ui basic icon button submit"
+              onClick={[Function]}
+            >
+              <svg
+                className="icon"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": undefined,
+                  }
+                }
+                onClick={null}
+                style={
+                  Object {
+                    "fill": "currentColor",
+                    "height": "36px",
+                    "width": "auto",
+                  }
+                }
+                viewBox=""
+                xmlns=""
+              />
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;
