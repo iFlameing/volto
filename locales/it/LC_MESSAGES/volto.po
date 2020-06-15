@@ -531,6 +531,7 @@ msgstr ""
 msgid "Edit {title}"
 msgstr "Modifica {title}"
 
+#: components/manage/Blocks/Submit/SubmitSidebar
 #: components/manage/Controlpanels/UsersControlpanel
 msgid "Email"
 msgstr "Email"
@@ -757,6 +758,10 @@ msgstr "Eredita i permessi dai livelli superiori"
 msgid "Inherited value"
 msgstr "Valore ereditato"
 
+#: components/manage/Blocks/Input/InputSidebar
+msgid "Input"
+msgstr ""
+
 #: components/manage/Blocks/Table/Edit
 msgid "Insert col after"
 msgstr "Inserisci colonna dopo"
@@ -810,6 +815,11 @@ msgstr ""
 #: components/manage/Form/ModalForm
 msgid "Items must be unique."
 msgstr "Gli elementi devono essere unici."
+
+#: components/manage/Blocks/Input/InputSidebar
+#: components/manage/Blocks/TextArea/TextAreaSidebar
+msgid "Label"
+msgstr ""
 
 #: components/manage/Preferences/PersonalPreferences
 msgid "Language"
@@ -1170,6 +1180,9 @@ msgstr "Rinomina"
 msgid "Rename items"
 msgstr "Rinomina elementi"
 
+#: components/manage/Blocks/Input/InputSidebar
+#: components/manage/Blocks/Submit/SubmitSidebar
+#: components/manage/Blocks/TextArea/TextAreaSidebar
 #: components/manage/Widgets/CheckboxWidget
 #: components/manage/Widgets/QuerystringWidget
 #: components/manage/Widgets/SchemaWidget
@@ -1419,6 +1432,10 @@ msgstr "Colore delle righe alternato"
 msgid "Subject"
 msgstr "Oggetto"
 
+#: components/manage/Blocks/Submit/SubmitSidebar
+msgid "Submit"
+msgstr ""
+
 #: components/manage/Actions/Actions
 #: components/manage/Contents/Contents
 #: components/manage/Controlpanels/ContentTypes
@@ -1462,6 +1479,10 @@ msgstr "Template"
 #: components/manage/Widgets/SchemaWidget
 msgid "Text"
 msgstr "Testo"
+
+#: components/manage/Blocks/TextArea/TextAreaSidebar
+msgid "TextArea"
+msgstr ""
 
 #: components/theme/ConnectionRefused/ConnectionRefused
 #: components/theme/CorsError/CorsError
@@ -1850,6 +1871,10 @@ msgstr "HTML"
 msgid "image"
 msgstr "Immagine"
 
+#: config/Blocks
+msgid "input"
+msgstr ""
+
 #: components/theme/PasswordReset/RequestPasswordReset
 msgid "label_my_email_address_is"
 msgstr "Il mio indirizzo email è"
@@ -1899,12 +1924,20 @@ msgid "sort"
 msgstr "ordina"
 
 #: config/Blocks
+msgid "submit"
+msgstr ""
+
+#: config/Blocks
 msgid "table"
 msgstr "Tabella"
 
 #: config/Blocks
 msgid "text"
 msgstr "Testo"
+
+#: config/Blocks
+msgid "textarea"
+msgstr ""
 
 #: config/Blocks
 msgid "title"

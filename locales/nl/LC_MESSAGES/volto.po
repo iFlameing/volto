@@ -550,6 +550,7 @@ msgstr ""
 msgid "Edit {title}"
 msgstr "{title} bewerken"
 
+#: components/manage/Blocks/Submit/SubmitSidebar
 #: components/manage/Controlpanels/UsersControlpanel
 msgid "Email"
 msgstr ""
@@ -776,6 +777,10 @@ msgstr "Rechten overnemen van bovenliggende map"
 msgid "Inherited value"
 msgstr ""
 
+#: components/manage/Blocks/Input/InputSidebar
+msgid "Input"
+msgstr ""
+
 #: components/manage/Blocks/Table/Edit
 msgid "Insert col after"
 msgstr ""
@@ -829,6 +834,11 @@ msgstr ""
 #: components/manage/Form/ModalForm
 msgid "Items must be unique."
 msgstr "Items moeten uniek zijn."
+
+#: components/manage/Blocks/Input/InputSidebar
+#: components/manage/Blocks/TextArea/TextAreaSidebar
+msgid "Label"
+msgstr ""
 
 #: components/manage/Preferences/PersonalPreferences
 msgid "Language"
@@ -1189,6 +1199,9 @@ msgstr "Naam wijzigen"
 msgid "Rename items"
 msgstr "Naam wijzigen"
 
+#: components/manage/Blocks/Input/InputSidebar
+#: components/manage/Blocks/Submit/SubmitSidebar
+#: components/manage/Blocks/TextArea/TextAreaSidebar
 #: components/manage/Widgets/CheckboxWidget
 #: components/manage/Widgets/QuerystringWidget
 #: components/manage/Widgets/SchemaWidget
@@ -1438,6 +1451,10 @@ msgstr ""
 msgid "Subject"
 msgstr ""
 
+#: components/manage/Blocks/Submit/SubmitSidebar
+msgid "Submit"
+msgstr ""
+
 #: components/manage/Actions/Actions
 #: components/manage/Contents/Contents
 #: components/manage/Controlpanels/ContentTypes
@@ -1480,6 +1497,10 @@ msgstr ""
 
 #: components/manage/Widgets/SchemaWidget
 msgid "Text"
+msgstr ""
+
+#: components/manage/Blocks/TextArea/TextAreaSidebar
+msgid "TextArea"
 msgstr ""
 
 #: components/theme/ConnectionRefused/ConnectionRefused
@@ -1869,6 +1890,10 @@ msgstr ""
 msgid "image"
 msgstr ""
 
+#: config/Blocks
+msgid "input"
+msgstr ""
+
 #: components/theme/PasswordReset/RequestPasswordReset
 msgid "label_my_email_address_is"
 msgstr ""
@@ -1918,11 +1943,19 @@ msgid "sort"
 msgstr ""
 
 #: config/Blocks
+msgid "submit"
+msgstr ""
+
+#: config/Blocks
 msgid "table"
 msgstr ""
 
 #: config/Blocks
 msgid "text"
+msgstr ""
+
+#: config/Blocks
+msgid "textarea"
 msgstr ""
 
 #: config/Blocks

@@ -538,6 +538,7 @@ msgstr ""
 msgid "Edit {title}"
 msgstr "{title} を編集"
 
+#: components/manage/Blocks/Submit/SubmitSidebar
 #: components/manage/Controlpanels/UsersControlpanel
 msgid "Email"
 msgstr "メール"
@@ -764,6 +765,10 @@ msgstr "上位レベルからパーミッションを継承する"
 msgid "Inherited value"
 msgstr "継承された値"
 
+#: components/manage/Blocks/Input/InputSidebar
+msgid "Input"
+msgstr ""
+
 #: components/manage/Blocks/Table/Edit
 msgid "Insert col after"
 msgstr "右に列を追加"
@@ -817,6 +822,11 @@ msgstr ""
 #: components/manage/Form/ModalForm
 msgid "Items must be unique."
 msgstr "アイテムはユニークである必要があります。"
+
+#: components/manage/Blocks/Input/InputSidebar
+#: components/manage/Blocks/TextArea/TextAreaSidebar
+msgid "Label"
+msgstr ""
 
 #: components/manage/Preferences/PersonalPreferences
 msgid "Language"
@@ -1177,6 +1187,9 @@ msgstr "名前の変更"
 msgid "Rename items"
 msgstr "名前の変更"
 
+#: components/manage/Blocks/Input/InputSidebar
+#: components/manage/Blocks/Submit/SubmitSidebar
+#: components/manage/Blocks/TextArea/TextAreaSidebar
 #: components/manage/Widgets/CheckboxWidget
 #: components/manage/Widgets/QuerystringWidget
 #: components/manage/Widgets/SchemaWidget
@@ -1426,6 +1439,10 @@ msgstr "一行おきに背景色を付加"
 msgid "Subject"
 msgstr "件名"
 
+#: components/manage/Blocks/Submit/SubmitSidebar
+msgid "Submit"
+msgstr ""
+
 #: components/manage/Actions/Actions
 #: components/manage/Contents/Contents
 #: components/manage/Controlpanels/ContentTypes
@@ -1469,6 +1486,10 @@ msgstr "テンプレート"
 #: components/manage/Widgets/SchemaWidget
 msgid "Text"
 msgstr "テキスト"
+
+#: components/manage/Blocks/TextArea/TextAreaSidebar
+msgid "TextArea"
+msgstr ""
 
 #: components/theme/ConnectionRefused/ConnectionRefused
 #: components/theme/CorsError/CorsError
@@ -1857,6 +1878,10 @@ msgstr "HTML"
 msgid "image"
 msgstr "画像"
 
+#: config/Blocks
+msgid "input"
+msgstr ""
+
 #: components/theme/PasswordReset/RequestPasswordReset
 msgid "label_my_email_address_is"
 msgstr "私のメールアドレスは"
@@ -1906,12 +1931,20 @@ msgid "sort"
 msgstr "並べ替え"
 
 #: config/Blocks
+msgid "submit"
+msgstr ""
+
+#: config/Blocks
 msgid "table"
 msgstr "テーブル"
 
 #: config/Blocks
 msgid "text"
 msgstr "テキスト"
+
+#: config/Blocks
+msgid "textarea"
+msgstr ""
 
 #: config/Blocks
 msgid "title"

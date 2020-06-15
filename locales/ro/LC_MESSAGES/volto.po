@@ -531,6 +531,7 @@ msgstr "Editează valori"
 msgid "Edit {title}"
 msgstr "Editează {title}"
 
+#: components/manage/Blocks/Submit/SubmitSidebar
 #: components/manage/Controlpanels/UsersControlpanel
 msgid "Email"
 msgstr "Email"
@@ -757,6 +758,10 @@ msgstr "Permisiuni mostenite de la niveluri superioare"
 msgid "Inherited value"
 msgstr "Valoarea moștenită"
 
+#: components/manage/Blocks/Input/InputSidebar
+msgid "Input"
+msgstr ""
+
 #: components/manage/Blocks/Table/Edit
 msgid "Insert col after"
 msgstr "Introduceți col. după"
@@ -810,6 +815,11 @@ msgstr "Obiecte"
 #: components/manage/Form/ModalForm
 msgid "Items must be unique."
 msgstr "Obiectele trebuie să fie unice."
+
+#: components/manage/Blocks/Input/InputSidebar
+#: components/manage/Blocks/TextArea/TextAreaSidebar
+msgid "Label"
+msgstr ""
 
 #: components/manage/Preferences/PersonalPreferences
 msgid "Language"
@@ -1170,6 +1180,9 @@ msgstr "Redenumește"
 msgid "Rename items"
 msgstr "Redenumirea articolelor"
 
+#: components/manage/Blocks/Input/InputSidebar
+#: components/manage/Blocks/Submit/SubmitSidebar
+#: components/manage/Blocks/TextArea/TextAreaSidebar
 #: components/manage/Widgets/CheckboxWidget
 #: components/manage/Widgets/QuerystringWidget
 #: components/manage/Widgets/SchemaWidget
@@ -1419,6 +1432,10 @@ msgstr "Colorati randurile alternativ"
 msgid "Subject"
 msgstr "Subiect"
 
+#: components/manage/Blocks/Submit/SubmitSidebar
+msgid "Submit"
+msgstr ""
+
 #: components/manage/Actions/Actions
 #: components/manage/Contents/Contents
 #: components/manage/Controlpanels/ContentTypes
@@ -1462,6 +1479,10 @@ msgstr "Șablon"
 #: components/manage/Widgets/SchemaWidget
 msgid "Text"
 msgstr "Text"
+
+#: components/manage/Blocks/TextArea/TextAreaSidebar
+msgid "TextArea"
+msgstr ""
 
 #: components/theme/ConnectionRefused/ConnectionRefused
 #: components/theme/CorsError/CorsError
@@ -1850,6 +1871,10 @@ msgstr "HTML"
 msgid "image"
 msgstr "Imagine"
 
+#: config/Blocks
+msgid "input"
+msgstr ""
+
 #: components/theme/PasswordReset/RequestPasswordReset
 msgid "label_my_email_address_is"
 msgstr "Adresa e-mail"
@@ -1899,12 +1924,20 @@ msgid "sort"
 msgstr "sortare"
 
 #: config/Blocks
+msgid "submit"
+msgstr ""
+
+#: config/Blocks
 msgid "table"
 msgstr "Tabel"
 
 #: config/Blocks
 msgid "text"
 msgstr "Text"
+
+#: config/Blocks
+msgid "textarea"
+msgstr ""
 
 #: config/Blocks
 msgid "title"

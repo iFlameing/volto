@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
-"POT-Creation-Date: 2020-06-03T11:11:12.934Z\n"
+"POT-Creation-Date: 2020-06-15T10:56:04.828Z\n"
 "Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -639,6 +639,7 @@ msgstr ""
 msgid "Edit {title}"
 msgstr ""
 
+#: components/manage/Blocks/Submit/SubmitSidebar
 #: components/manage/Controlpanels/UsersControlpanel
 # defaultMessage: Email
 msgid "Email"
@@ -917,6 +918,11 @@ msgstr ""
 msgid "Inherited value"
 msgstr ""
 
+#: components/manage/Blocks/Input/InputSidebar
+# defaultMessage: Input
+msgid "Input"
+msgstr ""
+
 #: components/manage/Blocks/Table/Edit
 # defaultMessage: Insert col after
 msgid "Insert col after"
@@ -982,6 +988,12 @@ msgstr ""
 #: components/manage/Form/ModalForm
 # defaultMessage: Items must be unique.
 msgid "Items must be unique."
+msgstr ""
+
+#: components/manage/Blocks/Input/InputSidebar
+#: components/manage/Blocks/TextArea/TextAreaSidebar
+# defaultMessage: Label
+msgid "Label"
 msgstr ""
 
 #: components/manage/Preferences/PersonalPreferences
@@ -1425,6 +1437,9 @@ msgstr ""
 msgid "Rename items"
 msgstr ""
 
+#: components/manage/Blocks/Input/InputSidebar
+#: components/manage/Blocks/Submit/SubmitSidebar
+#: components/manage/Blocks/TextArea/TextAreaSidebar
 #: components/manage/Widgets/CheckboxWidget
 #: components/manage/Widgets/QuerystringWidget
 #: components/manage/Widgets/SchemaWidget
@@ -1729,6 +1744,11 @@ msgstr ""
 msgid "Subject"
 msgstr ""
 
+#: components/manage/Blocks/Submit/SubmitSidebar
+# defaultMessage: Submit
+msgid "Submit"
+msgstr ""
+
 #: components/manage/Actions/Actions
 #: components/manage/Contents/Contents
 #: components/manage/Controlpanels/ContentTypes
@@ -1780,6 +1800,11 @@ msgstr ""
 #: components/manage/Widgets/SchemaWidget
 # defaultMessage: Text
 msgid "Text"
+msgstr ""
+
+#: components/manage/Blocks/TextArea/TextAreaSidebar
+# defaultMessage: TextArea
+msgid "TextArea"
 msgstr ""
 
 #: components/theme/ConnectionRefused/ConnectionRefused
@@ -2263,6 +2288,11 @@ msgstr ""
 msgid "image"
 msgstr ""
 
+#: config/Blocks
+# defaultMessage: Input
+msgid "input"
+msgstr ""
+
 #: components/theme/PasswordReset/RequestPasswordReset
 # defaultMessage: My email address is
 msgid "label_my_email_address_is"
@@ -2324,6 +2354,11 @@ msgid "sort"
 msgstr ""
 
 #: config/Blocks
+# defaultMessage: Submit
+msgid "submit"
+msgstr ""
+
+#: config/Blocks
 # defaultMessage: Table
 msgid "table"
 msgstr ""
@@ -2331,6 +2366,11 @@ msgstr ""
 #: config/Blocks
 # defaultMessage: Text
 msgid "text"
+msgstr ""
+
+#: config/Blocks
+# defaultMessage: TextArea
+msgid "textarea"
 msgstr ""
 
 #: config/Blocks
